@@ -5,6 +5,8 @@ and the second attending to tokens within the same time interval.
 
 The original paper could be found at: TBA
 
+This code is released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
 -----------------------------------------
 
 ![map](resources/septr.png)
@@ -20,7 +22,7 @@ The final prediction of our model is predicted by the MLP block.
 ## Implementation
 
 We implemented the model in PyTorch and provide all scripts to run our architecture.
-> In order to work properly you need to have a python version older than 3.6
+> In order to work properly you need to have a python version newer than 3.6
 >> We used the python 3.6.8 version.
 
 
@@ -28,6 +30,9 @@ We implemented the model in PyTorch and provide all scripts to run our architect
 ```
 TBA
 ```
+
+## Related Projects
+[pytorch-vit](https://github.com/lucidrains/vit-pytorch)
 
 ## You can send your questions or suggestions to: 
 r.catalin196@yahoo.ro, raducu.ionescu@gmail.com
