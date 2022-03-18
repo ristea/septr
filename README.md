@@ -23,7 +23,7 @@ The final prediction of our model is predicted by the MLP block.
 
 We implemented the model in PyTorch and provide all scripts to run our architecture.
 > In order to work properly you need to have a python version newer than 3.6
->> We used the python 3.6.8 version.
+> (We used the python 3.6.8 version).
 
 
 ## Cite us
