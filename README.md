@@ -3,7 +3,7 @@
 We propose the Separable Transformer (SepTr), an architecture that employs two transformer blocks in a sequential manner, the first attending to tokens within the same frequency bin, 
 and the second attending to tokens within the same time interval.
 
-The original paper could be found at: TBA
+The original paper could be found at: https://arxiv.org/pdf/2203.09581.pdf
 
 This code is released under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
@@ -23,12 +23,17 @@ The final prediction of our model is predicted by the MLP block.
 
 We implemented the model in PyTorch and provide all scripts to run our architecture.
 > In order to work properly you need to have a python version newer than 3.6
-> (We used the python 3.6.8 version).
+>> We used the python 3.6.8 version.
 
 
 ## Cite us
 ```
-TBA
+@article{Ristea-ARXIV-2022,
+  title={SepTr: Separable Transformer for Audio Spectrogram Processing},
+  author={Ristea, Nicolae-Catalin and Ionescu, Radu Tudor and Khan, Fahad Shahbaz},
+  journal={arXiv preprint arXiv:2203.09581},
+  year={2022}
+}
 ```
 
 ## Related Projects
@@ -36,8 +41,5 @@ TBA
 
 ## You can send your questions or suggestions to: 
 r.catalin196@yahoo.ro, raducu.ionescu@gmail.com
-
-### Last Update:
-March 18, 2022 
 
 
