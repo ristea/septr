@@ -33,7 +33,7 @@ class SeparableTr(nn.Module):
     def forward(self, x):
         x, cls_token = self.transformer[0](x, self.cls_token)
 
-        for i in range(0, len(self.transformer)):
+        for i in range(1, len(self.transformer)):
             x, cls_token = self.transformer[i](x, cls_token)
 
         cls_token = cls_token[:, 0, 0, :]
